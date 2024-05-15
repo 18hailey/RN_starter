@@ -3,7 +3,7 @@ import { Text, TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
 
 const MyButton = props => {
-    // console.log(props);
+    console.log(props);
     return (
         <TouchableOpacity
             style={{

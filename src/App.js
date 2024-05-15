@@ -62,7 +62,7 @@ const App = () => {
 export default App;
 */
 
-/* props
+/* props 
 
 import React from 'react'; 
 import { Text, View } from "react-native";
@@ -85,13 +85,14 @@ const App = () => {
         >Props</Text>
         <MyButton title="Button" onPress={() => alert('props')}/>
         <MyButton title="Button" onPress={() => alert('children')}>Children Props</MyButton>
-        <MyButton onPress={() => alert('default')} />
+        <MyButton onPress={() => alert('default')}>props third</MyButton>
         </View>
     );
 };
 
 export default App;
 */
+
 
 /* counter using useState()
 
@@ -117,6 +118,7 @@ const App = () => {
 export default App;
 */
 
+// textInput
 
 import React from 'react';
 import { View } from "react-native";
@@ -141,3 +143,4 @@ const App = () => {
 };
 
 export default App;
+

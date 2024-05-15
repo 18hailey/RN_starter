@@ -5,6 +5,7 @@ const EventInput = () => {
     const [text, setText] = useState('');
     const _onChange = event => setText(event.nativeEvent.text);
     const _onChangeText = text => setText(text);
+    console.log(_onChangeText);
     
     return (
         <View>
