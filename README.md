@@ -1,4 +1,1 @@
-3장 컴포넌트
-
-내장 컴포넌트 -> 커스텀 컴포넌트
-Button > TouchableOpacity + Text > Pressable
+책 처음 배우는 리액트 네이티브
